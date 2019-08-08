@@ -1,0 +1,13 @@
+server:
+  port: 8763
+
+spring:
+  application:
+    name: service-hi
+  zipkin:
+    baseUrl: http://localhost:9411
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/

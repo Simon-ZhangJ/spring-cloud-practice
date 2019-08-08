@@ -1,0 +1,6 @@
+dependencies {
+    // compile("org.springframework.cloud:spring-cloud-dependencies:${spring_cloud_version}")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:${spring_cloud_netflix}")
+    
+    testCompile("org.springframework.boot:spring-boot-starter-test:${springboot_version}")
+}

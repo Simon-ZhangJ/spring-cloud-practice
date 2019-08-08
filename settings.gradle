@@ -1,0 +1,6 @@
+rootProject.name = 'spring-cloud-practice'
+
+include 'register-center'
+include 'client'
+include 'consumer-ribbon'
+
